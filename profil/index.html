@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,24 +21,74 @@
   </nav>
 </header>
 <section class="hero">
-  <img src="salll.JPG" alt="Foto Profil" />
-  <div class="intro">
-    <h2>Halo,saya faishal thoriq m</h2>
+  <div data-aos="fade-right"
+  data-aos-offside="150"
+    data-aos-delay="200"
+    data-aos-duration="3000">
+    <img src="salll.JPG" alt="Foto Profil" />
+  </div>
+    <div class="intro">
+    <div data-aos="fade-down"
+    data-aos-offside="150"
+    data-aos-delay="200"
+    data-aos-duration="3000">
+      <h2>Halo,saya Faishal thoriq Muhamad</h2>
+    </div>
+    <div data-aos="fade-up"
+    data-aos-offside="150"
+    data-aos-delay="200"
+    data-aos-duration="3000">
     <p>Siswa PPLG di smk yadika.</p>
-    <a href="" class="btn">Hubungi Saya</a>
+  </div>
+  <div data-aos="fade-up"
+  data-aos-offside="150"
+  data-aos-delay="900"
+  data-aos-duration="3000">
+  <a href="" class="btn">Hubungi Saya</a>
+</div>
   </div>
 </section>
 <section id="about">
+    <div data-aos="fade-right"
+   data-aos-offside="150"
+    data-aos-delay="200"
+    data-aos-duration="3000">
   <h2>Tentang Saya</h2>
-  <p>Saya ingin mempelajari tentang pemrogramman</p>
+</div> 
+<div data-aos="fade-left"
+data-aos-offside="150"
+data-aos-delay="200"
+data-aos-duration="3000">
+<p>Saya ingin mempelajari tentang pemrogramman</p>
+</div> 
 </section>
 <section id="skills">
   <h2>Keahlian</h2>
-  <div class="skill-grid">
+  <div class="skill-grid"> 
+    <div data-aos="fade-right"
+    data-aos-offside="150"
+    data-aos-delay="800"
+    data-aos-duration="3000">
     <div class="skill">HTML</div>
+  </div> 
+    <div data-aos="fade-right"
+     data-aos-offside="150"
+    data-aos-delay="200"
+    data-aos-duration="3000">
     <div class="skill">CSS</div>
+  </div> 
+  <div data-aos="fade-left"
+   data-aos-offside="150"
+    data-aos-delay="200"
+    data-aos-duration="3000">
     <div class="skill">PHP</div>
-    <div class="skill">JS</div>
+  </div>
+  <div data-aos="fade-left"
+  data-aos-offside="150"
+  data-aos-delay="800"
+  data-aos-duration="3000">
+  <div class="skill">JS</div>
+</div>
   </div>
 </section>
 <section id="projects">
@@ -58,6 +109,9 @@
 <footer>
   <p>&copy; @Faishal Thoriq Muhamad</p>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

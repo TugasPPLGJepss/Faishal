@@ -42,8 +42,9 @@ background: linear-gradient(307deg, rgba(30, 72, 135, 1) 0%, rgba(24, 122, 184, 
 
 .hero img {
   width: 150px;
-  border-radius: 100px;
+  border-radius: 100%;
   margin-right: 2rem;
+  
 }
 
 .intro h2 {
@@ -51,7 +52,7 @@ background: linear-gradient(307deg, rgba(30, 72, 135, 1) 0%, rgba(24, 122, 184, 
 }
 
 .btn {
-  background-color: #333;
+  background-color: #000000;
   color: white;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
@@ -62,7 +63,7 @@ background: linear-gradient(307deg, rgba(30, 72, 135, 1) 0%, rgba(24, 122, 184, 
 }
 
 .btn:hover {
-  background-color: #555;
+  background-color: #585858;
 }
 
 section {
